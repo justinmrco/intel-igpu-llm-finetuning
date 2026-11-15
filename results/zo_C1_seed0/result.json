@@ -1,0 +1,149 @@
+{
+  "run_id": "zo_C1_seed0",
+  "phase": "pilot",
+  "config_id": "C1",
+  "method": "zo",
+  "seed": 0,
+  "trainable_parameter_count": 347136,
+  "total_model_parameters": 1544064512,
+  "steps_completed": 2000,
+  "steps_to_target": 1750,
+  "target_reached": true,
+  "target_training_loss": 0.5,
+  "target_consecutive_steps": 3,
+  "final_training_loss": 0.6619188189506531,
+  "final_validation_loss": 0.6284591500912238,
+  "final_validation_metric": 0.6422018348623854,
+  "initial_validation_loss": 1.7393001394534329,
+  "initial_validation_accuracy": 0.4954128440366973,
+  "prediction_change_rate": 0.3440366972477064,
+  "predictions_changed": 300,
+  "peak_gpu_memory_gb": 6.390622208,
+  "total_elapsed_time_sec": 5903.400476694107,
+  "mean_step_time_sec": 2.9517002383470534,
+  "validation_log": [
+    {
+      "step": 100,
+      "val_loss": 0.9777412720776479,
+      "val_acc": 0.4793577981651376,
+      "train_loss_current": 0.6235941052436829
+    },
+    {
+      "step": 200,
+      "val_loss": 0.9712534727306541,
+      "val_acc": 0.49311926605504586,
+      "train_loss_current": 0.7919946312904358
+    },
+    {
+      "step": 300,
+      "val_loss": 0.9140409067136432,
+      "val_acc": 0.47477064220183485,
+      "train_loss_current": 0.5642189979553223
+    },
+    {
+      "step": 400,
+      "val_loss": 0.875263541116627,
+      "val_acc": 0.5126146788990825,
+      "train_loss_current": 0.7387776374816895
+    },
+    {
+      "step": 500,
+      "val_loss": 0.8516096150109528,
+      "val_acc": 0.5194954128440367,
+      "train_loss_current": 1.2292957305908203
+    },
+    {
+      "step": 600,
+      "val_loss": 0.8407655691881792,
+      "val_acc": 0.5252293577981652,
+      "train_loss_current": 0.9895163178443909
+    },
+    {
+      "step": 700,
+      "val_loss": 0.7617552630398252,
+      "val_acc": 0.5630733944954128,
+      "train_loss_current": 0.7086162567138672
+    },
+    {
+      "step": 800,
+      "val_loss": 0.7178794889275087,
+      "val_acc": 0.5905963302752294,
+      "train_loss_current": 0.7043471932411194
+    },
+    {
+      "step": 900,
+      "val_loss": 0.7251214696726668,
+      "val_acc": 0.5779816513761468,
+      "train_loss_current": 0.6546002626419067
+    },
+    {
+      "step": 1000,
+      "val_loss": 0.7163325837992747,
+      "val_acc": 0.5951834862385321,
+      "train_loss_current": 0.6211491823196411
+    },
+    {
+      "step": 1100,
+      "val_loss": 0.7317272293458291,
+      "val_acc": 0.555045871559633,
+      "train_loss_current": 0.7591782808303833
+    },
+    {
+      "step": 1200,
+      "val_loss": 0.6788476787575888,
+      "val_acc": 0.6055045871559633,
+      "train_loss_current": 0.6865585446357727
+    },
+    {
+      "step": 1300,
+      "val_loss": 0.6823533281273798,
+      "val_acc": 0.6181192660550459,
+      "train_loss_current": 0.8309497833251953
+    },
+    {
+      "step": 1400,
+      "val_loss": 0.6776259136856149,
+      "val_acc": 0.6353211009174312,
+      "train_loss_current": 0.7177091836929321
+    },
+    {
+      "step": 1500,
+      "val_loss": 0.6731105140589793,
+      "val_acc": 0.5974770642201835,
+      "train_loss_current": 0.6319864988327026
+    },
+    {
+      "step": 1600,
+      "val_loss": 0.6521339930525614,
+      "val_acc": 0.6307339449541285,
+      "train_loss_current": 0.7107878923416138
+    },
+    {
+      "step": 1700,
+      "val_loss": 0.6097113768988793,
+      "val_acc": 0.6892201834862385,
+      "train_loss_current": 0.5494446158409119
+    },
+    {
+      "step": 1800,
+      "val_loss": 0.6316033765810345,
+      "val_acc": 0.6571100917431193,
+      "train_loss_current": 0.6380589604377747
+    },
+    {
+      "step": 1900,
+      "val_loss": 0.6157622692781851,
+      "val_acc": 0.6674311926605505,
+      "train_loss_current": 0.6634383201599121
+    },
+    {
+      "step": 2000,
+      "val_loss": 0.6284591500912238,
+      "val_acc": 0.6422018348623854,
+      "train_loss_current": 0.6619188189506531
+    }
+  ],
+  "adapter_dir": "results\\zo_hyperfix_lr1e5_seed0\\zo_C1_seed0\\final_adapter",
+  "prediction_diagnostics_file": "results\\zo_hyperfix_lr1e5_seed0\\zo_C1_seed0\\prediction_diagnostics.json",
+  "status": "completed"
+}

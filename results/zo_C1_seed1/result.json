@@ -1,0 +1,149 @@
+{
+  "run_id": "zo_C1_seed1",
+  "phase": "pilot",
+  "config_id": "C1",
+  "method": "zo",
+  "seed": 1,
+  "trainable_parameter_count": 347136,
+  "total_model_parameters": 1544064512,
+  "steps_completed": 2000,
+  "steps_to_target": 1737,
+  "target_reached": true,
+  "target_training_loss": 0.5,
+  "target_consecutive_steps": 3,
+  "final_training_loss": 0.31088942289352417,
+  "final_validation_loss": 0.5332007112853024,
+  "final_validation_metric": 0.7488532110091743,
+  "initial_validation_loss": 3.5765428718076935,
+  "initial_validation_accuracy": 0.5091743119266054,
+  "prediction_change_rate": 0.4598623853211009,
+  "predictions_changed": 401,
+  "peak_gpu_memory_gb": 6.390628352,
+  "total_elapsed_time_sec": 5997.408929347992,
+  "mean_step_time_sec": 2.9987044646739958,
+  "validation_log": [
+    {
+      "step": 100,
+      "val_loss": 0.9416732060799905,
+      "val_acc": 0.5068807339449541,
+      "train_loss_current": 1.0430588722229004
+    },
+    {
+      "step": 200,
+      "val_loss": 0.9672470677883254,
+      "val_acc": 0.5160550458715596,
+      "train_loss_current": 1.0729341506958008
+    },
+    {
+      "step": 300,
+      "val_loss": 0.8510311645105344,
+      "val_acc": 0.5252293577981652,
+      "train_loss_current": 0.9011959433555603
+    },
+    {
+      "step": 400,
+      "val_loss": 0.8807620499112191,
+      "val_acc": 0.5286697247706422,
+      "train_loss_current": 0.8353251814842224
+    },
+    {
+      "step": 500,
+      "val_loss": 0.7972129550548869,
+      "val_acc": 0.5665137614678899,
+      "train_loss_current": 0.9394405484199524
+    },
+    {
+      "step": 600,
+      "val_loss": 0.750635933985404,
+      "val_acc": 0.5951834862385321,
+      "train_loss_current": 0.47218286991119385
+    },
+    {
+      "step": 700,
+      "val_loss": 0.759130919745209,
+      "val_acc": 0.5814220183486238,
+      "train_loss_current": 0.6483635306358337
+    },
+    {
+      "step": 800,
+      "val_loss": 0.6802786430087658,
+      "val_acc": 0.6215596330275229,
+      "train_loss_current": 0.5351617336273193
+    },
+    {
+      "step": 900,
+      "val_loss": 0.6678172043704111,
+      "val_acc": 0.6215596330275229,
+      "train_loss_current": 0.7047685980796814
+    },
+    {
+      "step": 1000,
+      "val_loss": 0.6187987590054853,
+      "val_acc": 0.6571100917431193,
+      "train_loss_current": 1.243535041809082
+    },
+    {
+      "step": 1100,
+      "val_loss": 0.6531328416745598,
+      "val_acc": 0.6330275229357798,
+      "train_loss_current": 0.7468060255050659
+    },
+    {
+      "step": 1200,
+      "val_loss": 0.6178435617630634,
+      "val_acc": 0.6685779816513762,
+      "train_loss_current": 0.5693712830543518
+    },
+    {
+      "step": 1300,
+      "val_loss": 0.635957975453193,
+      "val_acc": 0.661697247706422,
+      "train_loss_current": 0.5237879157066345
+    },
+    {
+      "step": 1400,
+      "val_loss": 0.5928292673662168,
+      "val_acc": 0.698394495412844,
+      "train_loss_current": 0.7426955699920654
+    },
+    {
+      "step": 1500,
+      "val_loss": 0.6006554075337331,
+      "val_acc": 0.6857798165137615,
+      "train_loss_current": 0.8597083687782288
+    },
+    {
+      "step": 1600,
+      "val_loss": 0.5926928082737354,
+      "val_acc": 0.6846330275229358,
+      "train_loss_current": 0.7378435730934143
+    },
+    {
+      "step": 1700,
+      "val_loss": 0.5805978069611646,
+      "val_acc": 0.7006880733944955,
+      "train_loss_current": 0.6469308137893677
+    },
+    {
+      "step": 1800,
+      "val_loss": 0.6005037164469378,
+      "val_acc": 0.6743119266055045,
+      "train_loss_current": 0.667062520980835
+    },
+    {
+      "step": 1900,
+      "val_loss": 0.534661233971972,
+      "val_acc": 0.7580275229357798,
+      "train_loss_current": 0.44970574975013733
+    },
+    {
+      "step": 2000,
+      "val_loss": 0.5332007112853024,
+      "val_acc": 0.7488532110091743,
+      "train_loss_current": 0.31088942289352417
+    }
+  ],
+  "adapter_dir": "results\\zo_hyperfix_lr1e5_seed1\\zo_C1_seed1\\final_adapter",
+  "prediction_diagnostics_file": "results\\zo_hyperfix_lr1e5_seed1\\zo_C1_seed1\\prediction_diagnostics.json",
+  "status": "completed"
+}

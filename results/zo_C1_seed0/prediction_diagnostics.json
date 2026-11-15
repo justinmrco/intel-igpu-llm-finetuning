@@ -1,0 +1,43 @@
+{
+  "initial_validation": {
+    "examples": 872,
+    "loss": 1.7393001394534329,
+    "accuracy": 0.4954128440366973,
+    "predicted_class_counts": [
+      848,
+      24
+    ],
+    "true_class_counts": [
+      428,
+      444
+    ],
+    "mean_class_probabilities": [
+      0.9113569391310352,
+      0.08864305998209902
+    ],
+    "mean_logit_margin_class1_minus_class0": -3.0619388982790325
+  },
+  "final_validation": {
+    "examples": 872,
+    "loss": 0.6284591500912238,
+    "accuracy": 0.6422018348623854,
+    "predicted_class_counts": [
+      552,
+      320
+    ],
+    "true_class_counts": [
+      428,
+      444
+    ],
+    "mean_class_probabilities": [
+      0.55623455302055,
+      0.4437654468224495
+    ],
+    "mean_logit_margin_class1_minus_class0": -0.2532373538257879
+  },
+  "prediction_comparison": {
+    "examples_compared": 872,
+    "predictions_changed": 300,
+    "prediction_change_rate": 0.3440366972477064
+  }
+}

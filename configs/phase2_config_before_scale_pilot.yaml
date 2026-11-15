@@ -1,0 +1,61 @@
+# Phase 2 Configuration
+
+model:
+  name: "Qwen/Qwen2.5-1.5B"
+  revision: "main"
+  precision: "bf16"
+  max_seq_length: 256
+
+task:
+  name: "sst2"
+  dataset: "glue"
+  subset: "sst2"
+  text_field: "sentence"
+  label_field: "label"
+
+training:
+  batch_size: 8
+  max_steps: 1000
+  target_loss: 0.50
+  eval_every: 100
+  log_every: 1
+  grad_clip: 1.0
+  target_consecutive_steps: 3
+
+methods:
+  fo:
+    optimizer: "adamw"
+    lr: 1.0e-4
+    weight_decay: 0.01
+    warmup_steps: 50
+  zo:
+    lr: 1.0e-6
+    eps: 1.0e-3
+    momentum: 0.0
+    normalize_z: true
+    grad_clip: 10.0
+
+seeds: [0, 1, 2]
+
+configs:
+  C1:
+    lora_rank: 4
+    target_modules: ["q_proj"]
+  C2:
+    lora_rank: 8
+    target_modules: ["q_proj"]
+  C3:
+    lora_rank: 4
+    target_modules: ["q_proj", "k_proj", "v_proj"]
+  C4:
+    lora_rank: 8
+    target_modules: ["q_proj", "k_proj", "v_proj"]
+
+lora:
+  alpha: 16
+  dropout: 0.0
+  bias: "none"
+
+paths:
+  results_dir: "results/phase2"
+  pilot_dir: "results/pilot"

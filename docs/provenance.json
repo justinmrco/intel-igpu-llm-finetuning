@@ -1,0 +1,330 @@
+{
+  "created": "2026-11-15",
+  "scope": "Byte-identical evidence copies; documentation is new; source paths relative to local llmthesis workspace",
+  "files": [
+    {
+      "path": "configs/phase2_config.yaml",
+      "source": "thesis_bundle_2026_10_27/04_source_code/configs/phase2_config.yaml",
+      "bytes": 1492,
+      "sha256": "35ae33da06e7e5e48e5c1686d7d5792e46a8f5d42a2ec5b48faeaee38da07702"
+    },
+    {
+      "path": "configs/phase2_config_before_scale_pilot.yaml",
+      "source": "thesis_bundle_2026_10_27/04_source_code/configs/phase2_config_before_scale_pilot.yaml",
+      "bytes": 1027,
+      "sha256": "08247f853c2f9b5b8aaa3696cbe54aab7978badf0bdfe3696de0b52c54250fbf"
+    },
+    {
+      "path": "diagnostics/eps_stability.txt",
+      "source": "thesis_bundle_2026_10_27/07_diagnostics/eps_stability.txt",
+      "bytes": 6432,
+      "sha256": "7476b57360f3239f5a49c682eb7d1a616a412df772f0f95da0281c520b061a94"
+    },
+    {
+      "path": "diagnostics/xpu_ceiling_measurement.txt",
+      "source": "thesis_bundle_2026_10_27/07_diagnostics/xpu_ceiling_measurement.txt",
+      "bytes": 3661,
+      "sha256": "9c8413fcd0d219e7281944b2647f53163a7ce4cd1663ffb902fdc4ebc03f6cfe"
+    },
+    {
+      "path": "environment/ipex_qlora_packages.txt",
+      "source": "thesis_bundle_2026_10_27/06_environment/ipex_qlora_packages.txt",
+      "bytes": 1785,
+      "sha256": "d61ada9ccda18685e548e2e1fc04f852c083b79912555972fcca58dc8dc5a859"
+    },
+    {
+      "path": "environment/ipex_qlora_pip_freeze.txt",
+      "source": "thesis_bundle_2026_10_27/06_environment/ipex_qlora_pip_freeze.txt",
+      "bytes": 1382,
+      "sha256": "f75d7674e2610d16850f2ce02240e2dd2df52c7be553c3876914c648cfe732cc"
+    },
+    {
+      "path": "environment/llm_after_restore.txt",
+      "source": "thesis_bundle_2026_10_27/06_environment/llm_after_restore.txt",
+      "bytes": 1630,
+      "sha256": "10ac13e7e928394298c8ca85bce4f2cba800cfcba94fc9f06d620fcfbfc819fb"
+    },
+    {
+      "path": "evidence/7b/OOM_traceback.txt",
+      "source": "originaltestingfolder/results/qb4_7b_boundary_probe_seed42/OOM_traceback.txt",
+      "bytes": 911,
+      "sha256": "5bd63101d6b326687d9b447d45fab3afbe3e2300dc91f7aa8a34c04850329516"
+    },
+    {
+      "path": "evidence/phase1/feasibility_matrix_results.csv",
+      "source": "originaltestingfolder/feasibility_matrix_results.csv",
+      "bytes": 2028,
+      "sha256": "1b3de0d7ff8bd41297474a898c232407ae555df740525a67b57e4cd1c527bd42"
+    },
+    {
+      "path": "evidence/phase1/phase1_feasibility.py",
+      "source": "originaltestingfolder/phase1_feasibility.py",
+      "bytes": 9667,
+      "sha256": "b7bba5431816a8113fea839dca11bd78e6d6dcaacc7e683c64f1c2dbd0813a31"
+    },
+    {
+      "path": "figures/convergence_curves.png",
+      "source": "thesis_bundle_2026_10_27/03_figures/convergence_curves.png",
+      "bytes": 436180,
+      "sha256": "1674feb92bea31265181ca3d5291eaa1fb48f8fada8e2cc9fb68f6acd46d5b33"
+    },
+    {
+      "path": "figures/validation_accuracy_zo.png",
+      "source": "thesis_bundle_2026_10_27/03_figures/validation_accuracy_zo.png",
+      "bytes": 72242,
+      "sha256": "6157a2eb7b817bad639a2cbe8bc6bf45e13ac7bd1ef6be86900d0904b7d0a6cf"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed0/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed0/result.json",
+      "bytes": 971,
+      "sha256": "0ce990aaf8a7cfae221b9bb77b34712d5e2caf9b88c5073c6820f6b8e4add4d5"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed0/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed0/train_loss.csv",
+      "bytes": 69748,
+      "sha256": "93edf29761a8e88613386b3437b531c8c6a02eb7c96c809ad4d10015ab3d25d5"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed1/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed1/result.json",
+      "bytes": 970,
+      "sha256": "5a757aee001a8631435d70a6235167f0e8f68bd6d6569c93ed29a4fc481350f4"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed1/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed1/train_loss.csv",
+      "bytes": 69465,
+      "sha256": "78cf87a1f66be8bc8d3e9c41d85dddae1e78325ffc4f6136d72a63b309efd3e2"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed42/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed42/result.json",
+      "bytes": 970,
+      "sha256": "8a48974dc3f3b9c6581926ceb45e8c4e92fad7fe14d4bc48632f28f1b70a2d39"
+    },
+    {
+      "path": "results/fo_bf16_classification_qloraconfig_seed42/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/fo_bf16_classification_qloraconfig_seed42/train_loss.csv",
+      "bytes": 69655,
+      "sha256": "59b12bc27b7039f02cbe7e58480c016f5c6084fd44377d5c30cff8ed47c369cd"
+    },
+    {
+      "path": "results/qb4_3b_boundary_probe_seed42/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qb4_3b_boundary_probe_seed42/result.json",
+      "bytes": 945,
+      "sha256": "b62ceb4aeb128c4c6545ec16e7231f9aafd1103e1c7bbd14066bdfdd3d6b1fa1"
+    },
+    {
+      "path": "results/qb4_3b_boundary_probe_seed42/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qb4_3b_boundary_probe_seed42/train_loss.csv",
+      "bytes": 70,
+      "sha256": "de19b0709e9b0d568ba53b67423def9c8ee364a2b3fecf229f0e66b416ad59ea"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed0/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed0/result.json",
+      "bytes": 893,
+      "sha256": "8f54d22d3eaca52b5deede5f2faaf4466691f4ae15b5b99fefbc66f7f9046b2b"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed0/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed0/train_loss.csv",
+      "bytes": 87777,
+      "sha256": "375b51358ca8b5d04ba97d699d4a990b8e63795831cad48baabd40ce98f0db6a"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed1/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed1/result.json",
+      "bytes": 892,
+      "sha256": "1b66c568211753929c83a742d1ace99c7493f192f95ab2ed183977deb8046acb"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed1/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed1/train_loss.csv",
+      "bytes": 87821,
+      "sha256": "6bb98658adbd5052ad6d45d76598136852f7c298af56becdcc9033477344d1f5"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed42/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed42/result.json",
+      "bytes": 896,
+      "sha256": "39d7a6a069b0a58310b691dd78595e8838d8cfcbe45418b1fbb085e08cfa0814"
+    },
+    {
+      "path": "results/qlora_sst2_nf4_seed42/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/qlora_sst2_nf4_seed42/train_loss.csv",
+      "bytes": 87816,
+      "sha256": "efe25195154386407ed267c73f924f787bfa6c9954298ee49d41a43781936ae9"
+    },
+    {
+      "path": "results/zo_C1_seed0/prediction_diagnostics.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed0/prediction_diagnostics.json",
+      "bytes": 969,
+      "sha256": "b40f00e389fe9f25abac27d36613b26bc82446ea71235fed28e4b7e578c26207"
+    },
+    {
+      "path": "results/zo_C1_seed0/probe_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed0/probe_loss.csv",
+      "bytes": 153,
+      "sha256": "5801182734375ea86911f6d616e88ea05cff832622fe1acb98c7aa58dc1e52eb"
+    },
+    {
+      "path": "results/zo_C1_seed0/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed0/result.json",
+      "bytes": 4255,
+      "sha256": "e4cce1ca600c08aa0c4c62b01ad2827c39b87b56175701d8fd6df3165d4ed145"
+    },
+    {
+      "path": "results/zo_C1_seed0/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed0/train_loss.csv",
+      "bytes": 121284,
+      "sha256": "e53715dc4b86bd2160c3d6e2a072204eefafb5abe898a7442ac24b0dc22edefc"
+    },
+    {
+      "path": "results/zo_C1_seed1/prediction_diagnostics.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed1/prediction_diagnostics.json",
+      "bytes": 969,
+      "sha256": "bbe6e44d2c3e8a2ed0e369eb61da9387e0e8435f797432705aa8da12ca0f895c"
+    },
+    {
+      "path": "results/zo_C1_seed1/probe_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed1/probe_loss.csv",
+      "bytes": 158,
+      "sha256": "8f98c67ab95b4aaa6824a1c2155142d3614af32bfea6f9cdb6d22d962219f2fc"
+    },
+    {
+      "path": "results/zo_C1_seed1/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed1/result.json",
+      "bytes": 4251,
+      "sha256": "8e15c73ae88a40629c9c38f0d9c277d3ea52d3049361c48113f772300f4735ed"
+    },
+    {
+      "path": "results/zo_C1_seed1/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed1/train_loss.csv",
+      "bytes": 121106,
+      "sha256": "2e6dbbdd0df6b9bbf244eb6566d2b3d27ee69645074664a9888e1f8fc10268e7"
+    },
+    {
+      "path": "results/zo_C1_seed42/phase2_config_snapshot.yaml",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed42/phase2_config_snapshot.yaml",
+      "bytes": 1031,
+      "sha256": "6f9ab34030450de0c835839b6a5f75309742b6e26e2c49625006b589186b7cdc"
+    },
+    {
+      "path": "results/zo_C1_seed42/prediction_diagnostics.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed42/prediction_diagnostics.json",
+      "bytes": 972,
+      "sha256": "4dc93dba536fcb6488aa947781c0f9cfa3023a2b4831e9ef64bd3500e60e3dc7"
+    },
+    {
+      "path": "results/zo_C1_seed42/probe_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed42/probe_loss.csv",
+      "bytes": 157,
+      "sha256": "2a0c79c2c59e26d71c6e7a274908e503890856319552cfb42a77522c9107e07f"
+    },
+    {
+      "path": "results/zo_C1_seed42/result.json",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed42/result.json",
+      "bytes": 4229,
+      "sha256": "f4c09a3aabb3e817240ab95c2c6ad0855731489b915440ae775c7adc409286f2"
+    },
+    {
+      "path": "results/zo_C1_seed42/train_loss.csv",
+      "source": "thesis_bundle_2026_10_27/02_results_verified/zo_C1_seed42/train_loss.csv",
+      "bytes": 121218,
+      "sha256": "7dac15eefd9b08469a4463042c61b17439fb46368737215fea0bcd82720e97cc"
+    },
+    {
+      "path": "scripts/historical/measure_xpu_ceiling.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/measure_xpu_ceiling.py",
+      "bytes": 1542,
+      "sha256": "f33cc9135f321ac53259db61dad3aabd7a03571e9e5e09d1a828d55e443d4400"
+    },
+    {
+      "path": "scripts/historical/plot_convergence.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/plot_convergence.py",
+      "bytes": 3985,
+      "sha256": "da66f80859ed7a37ddca12055b2d0afe0d431c680b0f70a25a5ba08392085c22"
+    },
+    {
+      "path": "scripts/historical/plot_validation_accuracy.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/plot_validation_accuracy.py",
+      "bytes": 1595,
+      "sha256": "ed9d59616c6c50976f400edf302919a0ec6382e365510c77cc5623a2b54b4b57"
+    },
+    {
+      "path": "scripts/historical/test_3b_qlora_boundary.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/test_3b_qlora_boundary.py",
+      "bytes": 8896,
+      "sha256": "a1e05723bdf51c7661c353a95bdb5580e3c7ed2128407e3b1bbad4cc9073f8d7"
+    },
+    {
+      "path": "scripts/historical/test_7b_qlora_boundary.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/test_7b_qlora_boundary.py",
+      "bytes": 8885,
+      "sha256": "7e5ad32f0d1d427f0d0bcb8cad29fee808e3a3b3a50f11871ed9ada11f5348c4"
+    },
+    {
+      "path": "scripts/historical/test_fo_bf16_classification_qloraconfig.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/test_fo_bf16_classification_qloraconfig.py",
+      "bytes": 7606,
+      "sha256": "e74cea9aae49195ac66bef053595524eb83078dc92784711f5f5ac8288b2abbc"
+    },
+    {
+      "path": "scripts/historical/test_qlora_2000steps.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/test_qlora_2000steps.py",
+      "bytes": 8759,
+      "sha256": "83514eebd26ad865cd5559ea746baf1642643f1866d196f4d04b6c25b760af80"
+    },
+    {
+      "path": "scripts/historical/verify_and_backup_results.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/verify_and_backup_results.py",
+      "bytes": 4554,
+      "sha256": "4116e6f49a9a320b9ef75bf3f01fef1edb205ded3f7c1f3b50991137ad554154"
+    },
+    {
+      "path": "scripts/historical/verify_multi_eps.py",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/verify_multi_eps.py",
+      "bytes": 5171,
+      "sha256": "97031985064495a63f46b4f1d99d6422f5bc3b4211532cb702abd0c65d438587"
+    },
+    {
+      "path": "scripts/historical/__pycache__/plot_convergence.cpython-315.pyc",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/__pycache__/plot_convergence.cpython-315.pyc",
+      "bytes": 5852,
+      "sha256": "d892c65aa2cf170ce179a5eed0034e75d9bb25d548094e9f76f1e63d04cd976a"
+    },
+    {
+      "path": "scripts/historical/__pycache__/plot_validation_accuracy.cpython-315.pyc",
+      "source": "thesis_bundle_2026_10_27/05_test_scripts/__pycache__/plot_validation_accuracy.cpython-315.pyc",
+      "bytes": 3134,
+      "sha256": "3a1b13a83efaf71fee648ca9068a9d5a46ee97068429361db664cff92eeb2b38"
+    },
+    {
+      "path": "src/model_setup.py",
+      "source": "thesis_bundle_2026_10_27/04_source_code/src/model_setup.py",
+      "bytes": 2269,
+      "sha256": "c30595e3dce7f7f8cd2a71c24199df177273e1fdb3630098c9aa90835cfa6b19"
+    },
+    {
+      "path": "src/train.py",
+      "source": "thesis_bundle_2026_10_27/04_source_code/src/train.py",
+      "bytes": 19824,
+      "sha256": "692b6f39f80bd62308e73effa0dd712f93ca5bdf67680fff0a3646bc3c4a556a"
+    },
+    {
+      "path": "src/zo_optimizer.py",
+      "source": "thesis_bundle_2026_10_27/04_source_code/src/zo_optimizer.py",
+      "bytes": 4180,
+      "sha256": "1bdbafb26304541982cdfe4be6776ca27b2da8a3e92ac67f8027173d07bc73c9"
+    },
+    {
+      "path": "src/__init__.py",
+      "source": "thesis_bundle_2026_10_27/04_source_code/src/__init__.py",
+      "bytes": 3,
+      "sha256": "6bdf66b5bf2a44e658bea2ee86695ab150a06e600bf67cd5cce245ad54962c61"
+    }
+  ]
+}

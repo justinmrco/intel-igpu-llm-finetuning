@@ -1,0 +1,13 @@
+run_id,model_name,optimization_method,lora_rank,target_modules,batch_size,seq_length,oom_occurred,peak_vram_gb,single_step_time_sec,trainable_params,success_status,datetime_run,notes
+1,Qwen2.5-1.5B bf16 (native XPU),ZO,r=4,q_proj,1,512,False,5.847,1.522,344064,PASS,2026-10-08T06:15:33.151709+00:00,Completed without error
+2,Qwen2.5-1.5B bf16 (native XPU),ZO,r=4,"q_proj,k_proj,v_proj",1,512,False,5.998,1.516,745472,PASS,2026-10-08T06:15:41.444556+00:00,Completed without error
+3,Qwen2.5-1.5B bf16 (native XPU),ZO,r=8,q_proj,1,512,False,6.0,1.513,1089536,PASS,2026-10-08T06:15:45.699851+00:00,Completed without error
+4,Qwen2.5-1.5B bf16 (native XPU),ZO,r=8,"q_proj,k_proj,v_proj",1,512,False,6.001,1.519,1490944,PASS,2026-10-08T06:15:49.814459+00:00,Completed without error
+5,Qwen2.5-1.5B bf16 (native XPU),ZO,r=4,"q_proj,k_proj,v_proj",2,256,False,6.12,1.515,745472,PASS,2026-10-08T06:15:53.913919+00:00,Completed without error
+6,Qwen2.5-1.5B bf16 (native XPU),ZO,r=8,"q_proj,k_proj,v_proj",2,256,False,6.123,1.525,1490944,PASS,2026-10-08T06:15:58.189002+00:00,Completed without error
+7,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=4,q_proj,1,512,False,6.306,1.602,1146880,PASS,2026-10-08T06:16:02.355470+00:00,Completed without error
+8,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=4,"q_proj,k_proj,v_proj",1,512,False,6.304,1.61,745472,PASS,2026-10-08T06:16:08.667127+00:00,Completed without error
+9,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=8,q_proj,1,512,False,6.306,1.629,1089536,PASS,2026-10-08T06:16:13.054620+00:00,Completed without error
+10,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=8,"q_proj,k_proj,v_proj",1,512,False,6.309,1.637,1490944,PASS,2026-10-08T06:16:17.445954+00:00,Completed without error
+11,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=4,"q_proj,k_proj,v_proj",2,256,False,6.121,1.516,745472,PASS,2026-10-08T06:16:21.859699+00:00,Completed without error
+12,Qwen2.5-1.5B bf16 (native XPU),QLoRA,r=8,"q_proj,k_proj,v_proj",2,256,False,6.126,1.507,1490944,PASS,2026-10-08T06:16:26.149093+00:00,Completed without error

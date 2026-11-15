@@ -1,0 +1,33 @@
+{
+  "run_id": "fo_bf16_clf_qloraconfig_seed0",
+  "method": "first_order",
+  "precision": "bfloat16",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "task": "SST-2",
+  "training_objective": "classification_head",
+  "seed": 0,
+  "phase": "control_experiment",
+  "lora_rank": 8,
+  "lora_alpha": 32,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj"
+  ],
+  "num_steps": 2000,
+  "batch_size": 4,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "trainable_parameter_count": 1494016,
+  "total_model_parameters": 1545211392,
+  "initial_train_loss": 1.78125,
+  "final_train_loss": 0.1943359375,
+  "final_validation_loss": 0.21526763916015626,
+  "final_validation_accuracy": 0.97,
+  "validation_samples": 100,
+  "peak_gpu_memory_gb": 3.880956416,
+  "total_elapsed_time_sec": 1606.7716388000008,
+  "mean_step_time_sec": 0.8033858194000004,
+  "adapter_dir": "results/fo_bf16_classification_qloraconfig_seed0\\final_adapter",
+  "status": "completed"
+}

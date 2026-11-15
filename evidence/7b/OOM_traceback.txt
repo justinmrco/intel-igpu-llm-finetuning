@@ -1,0 +1,16 @@
+7B QLoRA Boundary Probe - OOM Traceback
+
+Command: python test_7b_qlora_boundary.py 42
+Date: 2026-10-21
+Model: Qwen/Qwen2.5-7B
+Quantization: NF4 4-bit
+Batch size: 2
+Max length: 128
+Max steps: 1
+
+Result: OOM at model.to("xpu")
+
+Traceback:
+torch.OutOfMemoryError: XPU out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 7.93 GiB. Of the allocated memory 7.64 GiB is allocated by PyTorch, and 113.03 MiB reserved by PyTorch but unallocated. Please use `empty_cache` to release all unoccupied cached memory.
+
+Interpretation: The 7B model in NF4 format consumed 7.64 GiB of XPU memory. After quantization succeeded on CPU, the transfer of model weights to XPU via model.to("xpu") failed when attempting to allocate the final 64 MiB. The forward pass was never reached. This establishes the non-fitting side of the boundary: 7B does not fit at 4-bit precision on the ~7.93 GiB XPU.

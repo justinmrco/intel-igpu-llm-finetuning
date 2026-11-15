@@ -1,0 +1,33 @@
+{
+  "run_id": "qb4_3b_boundary_seed42",
+  "method": "qlora",
+  "precision": "nf4_4bit",
+  "model": "Qwen/Qwen2.5-3B",
+  "task": "SST-2",
+  "seed": 42,
+  "phase": "phase_3b_boundary_closure",
+  "lora_rank": 8,
+  "lora_alpha": 32,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj"
+  ],
+  "num_steps": 1,
+  "batch_size": 4,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "trainable_parameter_count": 2506752,
+  "total_model_parameters": 1050898432,
+  "initial_train_loss": 3.8223278522491455,
+  "final_train_loss": 3.8223278522491455,
+  "final_validation_loss": 2.958039634227753,
+  "final_validation_accuracy": 0.62,
+  "validation_samples": 100,
+  "unknown_predictions": 5,
+  "peak_gpu_memory_gb": 4.073240576,
+  "total_elapsed_time_sec": 255.68354769999996,
+  "mean_step_time_sec": 255.68354769999996,
+  "adapter_dir": "results/qb4_3b_boundary_probe_seed42\\final_adapter",
+  "status": "completed"
+}
