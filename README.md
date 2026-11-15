@@ -29,7 +29,7 @@ python -B scripts/analyze_results.py
 python -B tests/check_analysis.py
 ```
 
-The first command verifies 54 evidence checksums and validates ten result records against their training CSVs, then prints accuracy, allocation and elapsed-time summaries. The second checks that modified files and truncated CSVs are rejected. Both are read-only for repository evidence. Paths resolve relative to the script location, so these commands also work when invoked by absolute path from another directory.
+The first command verifies 52 evidence checksums and validates ten result records against their training CSVs, then prints accuracy, allocation and elapsed-time summaries. The second checks that modified files and truncated CSVs are rejected. Both are read-only for repository evidence. Paths resolve relative to the script location, so these commands also work when invoked by absolute path from another directory.
 
 Optional CPU charts use Matplotlib:
 

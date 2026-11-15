@@ -6,7 +6,7 @@ Reviewed on 15 November 2026. This document describes local preparation, not a n
 
 - Curated and raw workspaces snapshotted separately; ZIP entries and source files checked by SHA-256. All 1,053 original files remained unchanged during preparation.
 - All ten selected result JSONs found byte-identical in the supplied raw testing workspace. Source mapping and limits are recorded in `EVIDENCE_MAP.md`; a source file's presence is not proof that exact version produced a historical run.
-- All 54 copied evidence files verified against `provenance.json`.
+- All 52 copied evidence files verified against `provenance.json`.
 - Ten completion records checked against contiguous training CSVs: nine 2,000-update runs and one single-update probe.
 - Accuracy summaries recomputed; ZO final accuracy checked against its saved prediction diagnostics.
 - Integrity regression checks exercised both modified-file rejection and a rehashed, truncated CSV.

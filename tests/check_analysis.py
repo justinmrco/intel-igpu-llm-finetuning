@@ -12,7 +12,7 @@ analysis = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(analysis)
 
 rows, count = analysis.analyze()
-assert len(rows) == 10 and count >= 54
+assert len(rows) == 10 and count >= 52
 
 with tempfile.TemporaryDirectory() as directory:
     copy = Path(directory)

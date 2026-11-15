@@ -291,18 +291,6 @@
       "sha256": "97031985064495a63f46b4f1d99d6422f5bc3b4211532cb702abd0c65d438587"
     },
     {
-      "path": "scripts/historical/__pycache__/plot_convergence.cpython-315.pyc",
-      "source": "thesis_bundle_2026_10_27/05_test_scripts/__pycache__/plot_convergence.cpython-315.pyc",
-      "bytes": 5852,
-      "sha256": "d892c65aa2cf170ce179a5eed0034e75d9bb25d548094e9f76f1e63d04cd976a"
-    },
-    {
-      "path": "scripts/historical/__pycache__/plot_validation_accuracy.cpython-315.pyc",
-      "source": "thesis_bundle_2026_10_27/05_test_scripts/__pycache__/plot_validation_accuracy.cpython-315.pyc",
-      "bytes": 3134,
-      "sha256": "3a1b13a83efaf71fee648ca9068a9d5a46ee97068429361db664cff92eeb2b38"
-    },
-    {
       "path": "src/model_setup.py",
       "source": "thesis_bundle_2026_10_27/04_source_code/src/model_setup.py",
       "bytes": 2269,
